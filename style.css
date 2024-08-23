@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 375px;
+    max-width: 1440px;
+    font-family: 'Hanken Grotesk';
+}
+
+.conteudo {
+    background-color: white;
+    width: 560px;
+    height: 400px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.286);
+    margin: auto;  
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+}
+
+.seu-resultado {
+    background-image: linear-gradient(hsl(252, 100%, 67%),  hsl(241, 81%, 54%));
+    width: 280px;
+    height: 400px;
+    border-radius: 20px;
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.score {  
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 100%; 
+    margin: 0 auto;
+    transform: translateY(-10px)
+    
+}
+
+.score-1 {
+    font-size: 60px;
+    color: white;
+    justify-content: center;
+}
+
+.score-2 {
+    color: hsl(241, 100%, 89%);
+
+}
+
+.status {
+    color: white;
+}
+
+.status p {
+    color: hsl(241, 100%, 89%);
+}
+
+h1 {
+    padding: 20px;
+    color: hsl(241, 100%, 89%);
+}
+
+.sumario {
+    width: 280px;
+    height: 400px;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    color: hsl(224, 30%, 27%);
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.reaction, .memory, .verbal, .visual {
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.reaction {
+    color: red;
+    background-color: #FFDFDE;
+}
+.memory {
+    color: hsl(39, 100%, 56%);
+    background-color: #FFFAF1;
+}
+.verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: #F2FAFA;
+}
+.visual {
+    color: hsl(234, 85%, 45%);
+    background-color: #F3F3FD;
+}
+
+
+.continue {
+    background-color: hsl(224, 30%, 27%);
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+}
+
+.continue:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%),  hsl(241, 81%, 54%));
+
+}
+
+.continue a {
+    text-decoration: none;
+    color: white;
+}
+
+.valor {
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+@media (max-width: 376px) {
+    .conteudo {
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+        border-radius: 0px 0px 30px 30px;
+    }
+    .seu-resultado {
+        width: 100%;
+        display: inline-block;
+        border-radius: 0px 0px 30px 30px;
+    }
+    .sumario {
+        width: 100%;
+    }
+}
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+## Colors
+
+### Primary
+
+- Light red: hsl(0, 100%, 67%)
+- Orangey yellow: hsl(39, 100%, 56%)
+- Green teal: hsl(166, 100%, 37%)
+- Cobalt blue: hsl(234, 85%, 45%)
+
+## Gradients
+
+- Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%)
+
+- Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0)
+
+
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Pale blue: hsl(221, 100%, 96%)
+- Light lavender: hsl(241, 100%, 89%)
+- Dark gray blue: hsl(224, 30%, 27%)
+
+### Notes
+
+Use transparency to get the color variations necessary to match the design. Hint: look into using `hsla()`.
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraphs): 18px
+
+### Font
+
+- Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
+- Weights: 500, 700, 800
+
+> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. */
